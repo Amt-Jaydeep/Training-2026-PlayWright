@@ -7,15 +7,15 @@
 
 ## 📅 2026/06/17 ─ 基礎準備
 
-### 1. ⚙️ 開發工具安裝
+### 1. ⚙️ 上課工具
 
 * ❌ **本地編輯器**: Visual Studio Code
 * **雲端 Python 執行平台**: Google Colab
 
 ### 2. 🔗 課堂相關參考連結
 
-* **[Python]   上課講義**：[roberthsu2003 / python](https://github.com/roberthsu2003/python)
-* **[crawl4AI] 上課講義**：[roberthsu2003 / playwright_crawl4AI](https://github.com/roberthsu2003/playwright_crawl4AI)
+* **[Python]   上課講義**：[Python](https://github.com/roberthsu2003/python)
+* **[crawl4AI] 上課講義**：[Playwright_crawl4AI](https://github.com/roberthsu2003/playwright_crawl4AI)
 
 **💡 延伸推薦與參考專案：**
 
@@ -36,7 +36,7 @@
 ### B. 作業環境
 
 * ❌ **Mini Anaconda**: 不需要安裝（較大）
-* ✅ **uv**: 核心使用！極速 Python 虛擬環境與套件管理器
+* ✅ **UV**: 核心使用！極速 Python 虛擬環境與套件管理器
 
 ### C. 使用 Zed 建立虛擬 Python 環境
 
@@ -52,7 +52,7 @@
    uv init
    ```
 6. **變更 uv Python 版本**（例如：3.12）
-7. **修改版本設定檔**：將 `.python-version` 與 `pyproject.toml` 中的版本改為 `3.12`（需儲存），並同意安裝
+7. **修改版本設定檔**：將 `.python-version` 與 `pyproject.toml` 中版本改為 `3.12`（需儲存），並同意安裝
 8. **建立虛擬環境**：
    ```bash
    uv venv
