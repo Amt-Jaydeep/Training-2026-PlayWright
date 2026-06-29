@@ -18,12 +18,15 @@
    uv venv
    ```
 9. 安裝完成後，終端機會顯示 Python 3.12 成功安裝訊息
-<img width="865" height="50" alt="image" src="https://github.com/user-attachments/assets/1bb7de7f-bee3-4c9b-bc1e-5b160aa68700" />
+<img width="697" height="203" alt="image" src="https://github.com/user-attachments/assets/90acb2bf-effe-48d0-85bb-71747c9b7df8" />
+
 
 10. **進入虛擬環境**：
     ```bash
     .venv\Scripts\activate
     ```
+<img width="865" height="50" alt="image" src="https://github.com/user-attachments/assets/1bb7de7f-bee3-4c9b-bc1e-5b160aa68700" />
+    
 11. 開頭出現專案名稱表示成功進入虛擬 uv 環境
 12. **離開虛擬環境**：
     ```bash
@@ -39,7 +42,13 @@
 ### 2. Zed 安裝與啟動 AI (OpenCode)
 
 1. 啟動畫面確認安裝成功
+<img width="603" height="355" alt="image" src="https://github.com/user-attachments/assets/dd7095ac-8580-4bfd-849c-c8dca9d793cb" />
+   
 2. 選擇專案（例如：`2026-0622_Playwright`）
+<img width="599" height="352" alt="image" src="https://github.com/user-attachments/assets/e902203d-8721-4997-918b-3347ffadddfd" />
+
 3. 選擇供應商（Free 方案可選 **GitHub**；其餘供應商需付費）
-4. 或直接選擇合適的模型
-5. 可將專案的 `.py` 檔案拉入 OpenCode 進行 AI 輔助修改（Zed 編輯器整合優勢）
+   或直接選擇合適的模型
+<img width="590" height="348" alt="image" src="https://github.com/user-attachments/assets/95ac4907-8153-4fbb-8b6b-42d11db9495f" />
+ 
+4. 可將專案的 `.py` 檔案拉入 OpenCode 進行 AI 輔助修改（Zed 編輯器整合優勢）
