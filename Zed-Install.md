@@ -1,4 +1,4 @@
-### 1. 使用 Zed 建立虛擬 Python 環境
+### 🛠️A. 使用 Zed 建立虛擬 Python 環境
 
 1. **建立專案資料夾**: 在 Local 本地端建立目錄（例如：`2026-0622_Playwright`）
 2. **開啟命令提示字元（CMD / PowerShell）**
@@ -39,7 +39,7 @@
 
 
 
-### 2. Zed 安裝與啟動 AI (OpenCode)
+### 🛠️B. Zed 安裝與啟動 AI (OpenCode)
 
 1. 啟動畫面確認安裝成功
 <img width="603" height="355" alt="image" src="https://github.com/user-attachments/assets/dd7095ac-8580-4bfd-849c-c8dca9d793cb" />
