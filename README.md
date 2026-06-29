@@ -27,7 +27,8 @@
 
 ### A. 安裝次世代編輯器：Zed
 * **主要目的**: 使用高效能的 Zed 編輯器，未來將全面串接 `uv` 管理 Python 虛擬環境與執行 AI Agent。
-<!-- 📥 📥【請在此處直接 Ctrl+V 貼上 Welcome to Zed 的軟體截圖】-->
+<img width="315" height="363" alt="image" src="https://github.com/user-attachments/assets/aaec38e0-522c-4215-b0a2-3aca75942890" />
+
 
 ### B. 環境套件策略
 * ❌ **Mini Anaconda**: 不需要安裝（較為肥大且傳統）。
