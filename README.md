@@ -47,8 +47,8 @@ uv 安裝步驟參閱：[**Zed 環境安裝與設定指南 (Zed-Install.md)**](.
 
 ### A. Zed 內建 AI Agent 設定
 
-* 開啟 Zed 的 **Settings**
-* 依照常用方式選擇安裝的 AI Agent，例如：
+* 1. 開啟 Zed 的 **Settings**
+* 2. 依照常用方式選擇安裝的 AI Agent，例如：
   * **OpenCode**（免費）
   * **Codex**
   * **Claude Agent**
@@ -59,3 +59,5 @@ uv 安裝步驟參閱：[**Zed 環境安裝與設定指南 (Zed-Install.md)**](.
 
 * 前提：必須先完成 Claude Code 的安裝
 * 安裝完成後即可在 Zed 終端機中使用 Claude Agent
+
+### C. 作業_計算 Tool(Py開發)與 GUI(應用)
