@@ -1,4 +1,4 @@
-# 🎭 Playwright & Crawl4AI 爬蟲上課筆記
+# 📖 Playwright & Crawl4AI 爬蟲上課筆記
 
 記錄學習 Python Playwright 與相關 AI 工具（Zed, OpenCode, Claude Code）
 上課筆記、環境建置流程與實作程式碼。
