@@ -39,6 +39,7 @@
 * ✅ **UV**: 核心使用！極速 Python 虛擬環境與套件管理器
 
 ### C. 使用 Zed 建立虛擬 Python 環境
+uv 安裝步驟參閱：[**Zed 環境安裝與設定指南 (Zed-Install.md)**](./Zed-Install.md)
 
 1. **建立專案資料夾**: 在 Local 本地端建立目錄（例如：`2026-0622_Playwright`）
 2. **開啟命令提示字元（CMD / PowerShell）**
