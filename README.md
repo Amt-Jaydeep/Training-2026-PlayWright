@@ -75,7 +75,7 @@ uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南**](./UV&Zed-Ins
 ### B. 安裝 Git 工具
 
 * 安裝 **Git**（含 GitHub CLI）
-* Git ⚙️安裝步驟參閱：[**Git 環境安裝與設定指南**](./Git-Install.md)
+* ⚙️Git 安裝步驟參閱：[**Git 環境安裝與設定指南**](./Git-Install.md)
 
 ---
 
