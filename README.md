@@ -33,7 +33,7 @@
 * ✅ **UV**: 核心使用！極速 Python 虛擬環境與套件管理器
 
 ### C. 使用 Zed 建立虛擬 Python 環境
-uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南 (Zed-Install.md)**](./Zed-Install.md)
+uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南**](./UV&Zed-Install.md)
 
 ---
 
@@ -75,7 +75,7 @@ uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南 (Zed-Install.md
 ### B. 安裝 Git 工具
 
 * 安裝 **Git**（含 GitHub CLI）
-* Git ⚙️安裝步驟參閱：[**Git 環境安裝與設定指南 (Git-Install.md)**](./Git-Install.md)
+* Git ⚙️安裝步驟參閱：[**Git 環境安裝與設定指南**](./Git-Install.md)
 
 ---
 
