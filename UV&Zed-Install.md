@@ -43,7 +43,7 @@
 
 
 
-### 🛠️B. Zed 安裝與啟動 AI (OpenCode)
+### 🛠️B. 使用 Zed 下, 安裝與啟動 AI (OpenCode)
 
 1. 啟動畫面確認安裝成功
 <img width="603" height="355" alt="image" src="https://github.com/user-attachments/assets/dd7095ac-8580-4bfd-849c-c8dca9d793cb" />
