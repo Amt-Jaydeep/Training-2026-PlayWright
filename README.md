@@ -54,7 +54,7 @@ uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南**](./UV&Zed-Ins
 * 前提：必須先完成 Claude Code 的安裝
 * 安裝完成後即可在 Zed 終端機中使用 Claude Agent
 
-### C. Zed ⚙️安裝 jupyter
+### C. Zed ⚙️安裝 jupyter: [**Jupyter 環境安裝與設定指南**](./Jupyter-Install.md) 
 
 1. uv add jupyter lab
 2. uv run jupyter lab ( **lab 比 notebook 好用** )
