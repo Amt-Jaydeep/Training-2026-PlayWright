@@ -56,3 +56,8 @@
 <img width="590" height="348" alt="image" src="https://github.com/user-attachments/assets/95ac4907-8153-4fbb-8b6b-42d11db9495f" />
  
 4. 可將專案的 `.py` 檔案拉入 OpenCode 進行 AI 輔助修改（Zed 編輯器整合優勢）
+
+
+### 🛠️C. Zed 操作快捷按鍵
+
+1. 視窗放大: "Shift" + "Esc"
