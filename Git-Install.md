@@ -72,3 +72,9 @@ uv venv
 ```bash
 uv sync
 ```
+
+> 💡 備註：不同步 dev
+>```bash
+>uv sync --no-dev
+>```
+ 
