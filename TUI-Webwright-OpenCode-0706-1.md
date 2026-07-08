@@ -1,25 +1,25 @@
-# 🌐 TUI Webwright for Zed + OpenCode 筆記
+# 🌐 TUI Webwright for Zed (OpenCode)
 
 ---
 
-## 📅 2026/07/06 ─ 安裝 TUI Webwright for Zed OpenCode
+## ⚙️ 安裝 TUI Webwright for Zed OpenCode
 
 ---
 
 ## A. TUI Agent 環境建立
 
-1. 下載並安裝 **Node.js**
+1. ⚙️下載並安裝 **Node.js**
 
-2. **路徑設定**（部分公司 IT 用 admin 權限安裝 Node.js，可能只寫入 admin 帳號的 PATH，未同步到自己的使用者帳號，導致後面 `opencode` 指令抓不到）
+2. **路徑設定**（若 IT 用 admin 權限安裝 Node.js，可能只寫入 admin 帳號的 PATH，未同步使用者帳號，導致 `opencode` 指令失效）
 
-   先確認自己帳號的 PATH 是否已包含 npm 全域路徑：
+   * 先確認自己帳號的 PATH 是否已包含 npm 全域路徑：
    ```powershell
    $env:PATH -split ';' | Select-String "npm"
    ```
 
-   💡如果沒有反應，手動補上：
+   * 如果沒有反應，手動補上：
    ```powershell
-   [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\jaydeep.yeh\AppData\Roaming\npm", "User")
+   [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\使用者\AppData\Roaming\npm", "User")
    ```
 
    > 設定後**需完全關閉 Zed（不是只關分頁）並重新開啟**才會生效。
@@ -31,6 +31,7 @@
    npm i -g opencode-ai
    ```
    > 🔗 官方網址：[https://opencode.ai/zht](https://opencode.ai/zht)
+<img width="865" height="338" alt="image" src="https://github.com/user-attachments/assets/a8baa03a-2dc4-469a-a853-78d706a1b788" />
 
 5. 在 Zed 開啟終端機
 
@@ -42,17 +43,19 @@
    > ✅ 若步驟 2 已正確設定 PATH，可直接輸入 `opencode` 啟動，不需要透過 `npx` 
 
 7. 確認 TUI Agent（OpenCode）啟動成功
+ <img width="865" height="508" alt="image" src="https://github.com/user-attachments/assets/d9298239-34d3-4c92-b363-59a21c8ad593" />
+
 
 ---
 
 ## B. Playwright 環境建立
 
-1. 安裝 Playwright：
+1. ⚙️安裝 Playwright：
    ```bash
    uv add playwright
    ```
 
-2. 安裝瀏覽器驅動：
+2. ⚙️安裝瀏覽器驅動：
 
    | 指令 | 說明 |
    |------|------|
@@ -73,6 +76,7 @@
    ```powershell
    git clone https://github.com/microsoft/Webwright.git $env:TEMP/Webwright
    ```
+   > 💡 建立暫存區主要是保持 Project 資料乾淨 ( Webwright 完整資料龐大)
 
 3. 從暫存區複製 Webwright Skill 至專案：
    ```powershell
@@ -83,6 +87,7 @@
    ```powershell
    Remove-Item -Recurse -Force -Path $env:TEMP/Webwright
    ```
+   > 💡 暫存區複製 Skill 之後,其餘可刪除
 
 5. 在專案根目錄建立 `opencode.json`，授權使用 Webwright：
    ```json
@@ -113,15 +118,18 @@
 
 1. 在 Zed 終端機啟動 OpenCode：
    ```bash
-   npx opencode
+   opencode
    ```
 
 
 2. 輸入 `/` 切換並選擇合適模型（優先選擇免費方案）
+<img width="865" height="320" alt="image" src="https://github.com/user-attachments/assets/130ad371-6468-4bde-bc49-9b727c035510" />
 
 3. 輸入 `/Skills`，找到並選擇 **Webwright Skill**
+<img width="865" height="235" alt="image" src="https://github.com/user-attachments/assets/d4a5b223-2fd4-494e-b116-a71dbf6c8315" />
 
 4. 選擇後確認 Skill 已載入
+<img width="865" height="279" alt="image" src="https://github.com/user-attachments/assets/41172661-c777-44bb-a86a-2c9399bc148d" />
 
 5. 輸入需要查詢或爬取的資料需求
 
@@ -132,6 +140,3 @@
 
 7. 同時會產生 `final_script.py`，可手動執行重現結果
 
----
-
-*最後更新：2026/07/07*
