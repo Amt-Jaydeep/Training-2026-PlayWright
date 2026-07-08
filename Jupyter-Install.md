@@ -28,4 +28,11 @@
 
 ---
 
-*最後更新：2026/07/07*
+> 💡 在Zed 直接運行 Jupyter
+> ```bash
+>   %##
+>   ```
+> 啟動為 shift + ctrl + enter
+>
+> 實際案例:
+> <img width="880" height="573" alt="image" src="https://github.com/user-attachments/assets/2f30cb0e-95de-4961-b47f-36961d9b866f" />
