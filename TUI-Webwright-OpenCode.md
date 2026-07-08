@@ -2,7 +2,7 @@
 
 ---
 
-## ⚙️ 安裝 TUI Webwright for Zed OpenCode
+## ⚙️ 安裝 TUI Webwright for Zed (OpenCode)
 
 ---
 
