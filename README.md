@@ -112,6 +112,14 @@ uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南**](./UV&Zed-Ins
 * 3.建立 OpenCode Skill（Webwright）
 * 4.Zed + OpenCode 使用 Webwright 搜尋資料
 
+---
 
+## 📅 2026/07/08 ─ Python 迴圈與資料庫
+
+**主題：`while` vs `for` / `range` / `collection`（集合型別） / `dict`（字典）**
+
+> ℹ️ 本節內容與 Playwright 主軸關聯較低，可依個人需求選擇性複習。
+
+---
 
 
