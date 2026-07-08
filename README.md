@@ -102,3 +102,16 @@ uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南**](./UV&Zed-Ins
 > ℹ️ 本節內容與 Playwright 主軸關聯較低，可依個人需求選擇性複習。
 
 ---
+
+## 📅 2026/07/06 ─ TUI Webwright for Zed (OpenCode)
+
+### A.⚙️安裝 TUI Webwright for Zed (OpenCode)
+> 安裝步驟參閱：[**TUI Webwright for Zed 安裝**](./TUI-Webwright-OpenCode.md)
+* 1.TUI Agent 環境建立
+* 2.Playwright 環境建立
+* 3.建立 OpenCode Skill（Webwright）
+* 4.Zed + OpenCode 使用 Webwright 搜尋資料
+
+
+
+
