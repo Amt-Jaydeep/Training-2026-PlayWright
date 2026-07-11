@@ -2,6 +2,12 @@
 
 * 安裝 **Git**（含 GitHub CLI）
 
+>    ```bash
+>   winget install GitHub.cli
+>   ```
+
+
+
 ---
 
 ### B. Git 基本設定與常用指令
