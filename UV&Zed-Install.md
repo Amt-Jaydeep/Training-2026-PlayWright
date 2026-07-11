@@ -45,17 +45,22 @@
 
 ### 🛠️B. 使用 Zed 下, 安裝與啟動 AI (OpenCode)
 
-1. 啟動畫面確認安裝成功
-<img width="603" height="355" alt="image" src="https://github.com/user-attachments/assets/dd7095ac-8580-4bfd-849c-c8dca9d793cb" />
-   
-2. 選擇專案（例如：`2026-0622_Playwright`）
+1. Add more agens & Install
+<img width="1611" height="967" alt="image" src="https://github.com/user-attachments/assets/c68c1d48-28ed-46b1-a04a-706fce1cf0e9" />
+
+2. 安裝成功
+<img width="827" height="987" alt="image" src="https://github.com/user-attachments/assets/560bdc3b-d5ee-47d5-93a6-6a2bc26b488f" />
+  
+3. 選擇專案（例如：`2026-0622_Playwright`）
 <img width="599" height="352" alt="image" src="https://github.com/user-attachments/assets/e902203d-8721-4997-918b-3347ffadddfd" />
 
-3. 選擇供應商（Free 方案可選 **GitHub**；其餘供應商需付費）
+4. 選擇供應商（Free 方案可選 **GitHub**；其餘供應商需付費）
    或直接選擇合適的模型
 <img width="590" height="348" alt="image" src="https://github.com/user-attachments/assets/95ac4907-8153-4fbb-8b6b-42d11db9495f" />
+
+> 💡Open code 與 Big Pickle (美國) 就很不錯 , 也有中國 Deepseek 如果不在意
  
-4. 可將專案的 `.py` 檔案拉入 OpenCode 進行 AI 輔助修改（Zed 編輯器整合優勢）
+5. 可將專案的 `.py` 檔案拉入 OpenCode 進行 AI 輔助修改（Zed 編輯器整合優勢）
 
 
 ### 🛠️C. Zed 操作快捷按鍵
