@@ -1,7 +1,8 @@
 ### A. 安裝 Git 工具
 
 * 安裝 **Git**（含 GitHub CLI）
-
+1. 下載 Git 並安裝
+2. 使用指令安裝 GitHub CLI
 >    ```bash
 >   winget install GitHub.cli
 >   ```
