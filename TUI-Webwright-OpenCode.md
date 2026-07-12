@@ -19,7 +19,7 @@
 
    * 如果沒有反應，手動補上：
    ```powershell
-   [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\使用者\AppData\Roaming\npm", "User")
+   [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\User\AppData\Roaming\npm", "User")
    ```
 
    > 設定後**需完全關閉 Zed（不是只關分頁）並重新開啟**才會生效。
