@@ -22,27 +22,37 @@
    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\User\AppData\Roaming\npm", "User")
    ```
 
-   > 設定後**需完全關閉 Zed（不是只關分頁）並重新開啟**才會生效。
+   > 💡設定後**需完全關閉 Zed（不是只關分頁）並重新開啟**才會生效。
+   >
+   > 💡清除 Path 設定重複小方法
+   > ```bash
+   > $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
+   > $paths = $userPath -split ';' | Where-Object { $_ -ne "" } | Select-Object -Unique
+   > $newPath = $paths -join ';'
+   > [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
+   > Write-Host "清理完成,共 $($paths.Count) 條唯一路徑"
+   > ```
+   > 
 
-3. 啟動 **Zed** 編輯器
+4. 啟動 **Zed** 編輯器
 
-4. 安裝 OpenCode（全域安裝）：
+5. 安裝 OpenCode（全域安裝）：
    ```bash
    npm i -g opencode-ai
    ```
    > 🔗 官方網址：[https://opencode.ai/zht](https://opencode.ai/zht)
 <img width="865" height="338" alt="image" src="https://github.com/user-attachments/assets/a8baa03a-2dc4-469a-a853-78d706a1b788" />
 
-5. 在 Zed 開啟終端機
+6. 在 Zed 開啟終端機
 
-6. 啟動 TUI Agent：
+7. 啟動 TUI Agent：
    ```bash
    npx opencode
    ```
    > 💡 上課環境直接輸入 `opencode`
    > ✅ 若步驟 2 已正確設定 PATH，可直接輸入 `opencode` 啟動，不需要透過 `npx` 
 
-7. 確認 TUI Agent（OpenCode）啟動成功
+8. 確認 TUI Agent（OpenCode）啟動成功
  <img width="865" height="508" alt="image" src="https://github.com/user-attachments/assets/d9298239-34d3-4c92-b363-59a21c8ad593" />
 
 
