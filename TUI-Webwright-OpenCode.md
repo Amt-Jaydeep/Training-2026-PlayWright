@@ -23,16 +23,6 @@
    ```
 
    > 💡設定後**需完全關閉 Zed（不是只關分頁）並重新開啟**才會生效。
-   >
-   > 💡清除 Path 設定重複小方法
-   > ```bash
-   > $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
-   > $paths = $userPath -split ';' | Where-Object { $_ -ne "" } | Select-Object -Unique
-   > $newPath = $paths -join ';'
-   > [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
-   > Write-Host "清理完成,共 $($paths.Count) 條唯一路徑"
-   > ```
-   > 
 
 4. 啟動 **Zed** 編輯器
 
@@ -150,3 +140,20 @@
 
 7. 同時會產生 `final_script.py`，可手動執行重現結果
 
+## D. 清除 Path 設定重複小方法
+
+   > ```bash
+   > $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
+   > ```
+   > ```bash
+   > $paths = $userPath -split ';' | Where-Object { $_ -ne "" } | Select-Object -Unique
+   > ```
+   > ```bash
+   > $newPath = $paths -join ';'
+   > ```
+   > ```bash
+   > [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
+   > ```
+   > ```bash
+   > Write-Host "清理完成,共 $($paths.Count) 條唯一路徑"
+   > ```
