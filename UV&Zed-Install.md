@@ -41,7 +41,7 @@
 13. 此時系統中可同時看到兩個 Python 版本（如 3.14 與 3.12）
 <img width="697" height="203" alt="image" src="https://github.com/user-attachments/assets/cdc97926-1a51-4f49-98f5-9ee24f39efa4" />
 
-
+---
 
 ### 🛠️B. 使用 Zed 下, 安裝與啟動 AI (OpenCode)
 
@@ -62,7 +62,20 @@
  
 5. 可將專案的 `.py` 檔案拉入 OpenCode 進行 AI 輔助修改（Zed 編輯器整合優勢）
 
+---
 
 ### 🛠️C. Zed 操作快捷按鍵
 
-1. 視窗放大: "Shift" + "Esc"
+> 💡視窗放大: "Shift" + "Esc"
+
+---
+
+### 🛠️D. Zed 直接運行 Jupyter
+
+> ```bash
+>   %##
+>   ```
+> 啟動為 shift + ctrl + enter
+>
+> 實際案例:
+> <img width="880" height="573" alt="image" src="https://github.com/user-attachments/assets/2f30cb0e-95de-4961-b47f-36961d9b866f" />
