@@ -16,7 +16,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 > 💡高風險: 全域授權
 
-4. 依照需求執行自動安裝人包
+4. 依照**環境需求**執行自動安裝人包
 ---
 ### 方案 A：含 OpenCode AI
 
