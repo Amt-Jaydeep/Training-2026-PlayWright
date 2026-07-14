@@ -4,20 +4,33 @@
 
 ### 方案 A：不含 OpenCode
 
-```powershell
-# 1. 以系統管理員開啟 PowerShell
-# 2. 執行以下指令
+1. 以系統管理員開啟 PowerShell
+2. 執行以下指令
+
+```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-Invoke-RestMethod -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/REPO/main/Install-DevTools.ps1" | Invoke-Expression
 ```
+> 💡低風險: 臨時授權
+
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+> 💡高風險: 全域授權
+
+```bash
+.\Install-DevTools.ps1
+```
+
+
 
 ### 方案 B：含 OpenCode AI
 
-```powershell
-# 1. 以系統管理員開啟 PowerShell
-# 2. 執行以下指令
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-Invoke-RestMethod -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/REPO/main/Install-DevTools-WithOpenCode.ps1" | Invoke-Expression
+
+1. 以系統管理員開啟 PowerShell
+2. 執行以下指令 (授權同上)
+
+```bash
+.\Install-DevTools-WithOpenCode.ps1
 ```
 
 ---
@@ -57,7 +70,8 @@ Invoke-RestMethod -Uri "https://raw.githubusercontent.com/YOUR_USERNAME/REPO/mai
 ### Q: 執行腳本出現「無法載入，因為這個系統上禁止執行腳本」
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process ( 臨時-低風險 )
+> 💡Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser ( 全域-高風險 )
 ```
 
 ### Q: 安裝後指令找不到
@@ -74,23 +88,6 @@ node --version          # 方案 B
 opencode --version      # 方案 B
 ```
 
----
 
-## 上課流程
 
-```
-1. 執行安裝腳本 (約 5-10 分鐘)
-2. 開啟 Zed 編輯器
-3. 建立專案資料夾
-4. 開啟 OpenCode 輔助 (方案 B)
-5. 開始寫 Playwright 自動化測試
-```
 
----
-
-## 相關文件
-
-- [uv 文件](https://docs.astral.sh/uv/)
-- [Playwright 文件](https://playwright.dev/)
-- [Zed 文件](https://zed.dev/docs)
-- [OpenCode GitHub](https://github.com/anomalyco/opencode)
