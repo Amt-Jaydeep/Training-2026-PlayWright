@@ -5,6 +5,7 @@
 1. 以系統管理員開啟 PowerShell
 > 按 Win + X，選擇 Windows PowerShell (系統管理員) 或 終端機 (系統管理員)
 2. 切換到腳本所在目錄 ( 不會切換: 可直接把腳本複製現在目錄)
+> 說明: cd "C:\Test\T-0714"
 3. 執行以下指令授權
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
@@ -34,15 +35,18 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## 安裝內容比較
 
-| 工具 | 方案 B | 方案 A | 用途 |
+| 工具 | 方案 A | 方案 B | 用途 |
 |------|:------:|:------:|------|
 | uv | V | V | Python 套件管理器 |
 | Git | V | V | 版本控制 |
 | Python 3.12 | V | V | 程式語言 |
 | Playwright | V | V | 瀏覽器自動化 |
 | Zed | V | V | 編輯器 |
-| Node.js | - | V | JavaScript 執行環境 |
-| OpenCode | - | V | AI 輔助編程 |
+| Node.js | V | | JavaScript 執行環境 |
+| OpenCode | V | | AI 輔助編程 |
+
+---
+
 
 ---
 
@@ -80,9 +84,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process ( 臨時-低風
 ```powershell
 uv --version
 git --version
-python --version
-node --version          # 方案 B
-opencode --version      # 方案 B
+node --version          # 方案 A
+opencode --version      # 方案 A
 ```
 
 
