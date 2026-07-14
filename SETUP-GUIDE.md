@@ -1,12 +1,11 @@
 # Playwright Training - 上課環境懶人包
 
-## 快速開始 (一鍵安裝)
-
-### 方案 A：不含 OpenCode
+## 操作步驟 (一鍵安裝)
 
 1. 以系統管理員開啟 PowerShell
-2. 執行以下指令
-
+> 按 Win + X，選擇 Windows PowerShell (系統管理員) 或 終端機 (系統管理員)
+2. 切換到腳本所在目錄 ( 不會切換: 可直接把腳本複製現在目錄)
+3. 執行以下指令授權
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```
@@ -17,27 +16,25 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 > 💡高風險: 全域授權
 
-```bash
-.\Install-DevTools.ps1
-```
-
-
-
-### 方案 B：含 OpenCode AI
-
-
-1. 以系統管理員開啟 PowerShell
-2. 執行以下指令 (授權同上)
+4. 依照需求執行自動安裝人包
+---
+### 方案 A：含 OpenCode AI
 
 ```bash
 .\Install-DevTools-WithOpenCode.ps1
+```
+
+### 方案 B：不含 OpenCode
+
+```bash
+.\Install-DevTools.ps1
 ```
 
 ---
 
 ## 安裝內容比較
 
-| 工具 | 方案 A | 方案 B | 用途 |
+| 工具 | 方案 B | 方案 A | 用途 |
 |------|:------:|:------:|------|
 | uv | V | V | Python 套件管理器 |
 | Git | V | V | 版本控制 |
