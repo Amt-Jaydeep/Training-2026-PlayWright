@@ -25,7 +25,7 @@
 ### A. ⚙️安裝編輯器：Zed
 
 * **主要目的**: 使用 Zed 編輯器，串接 `uv` 管理 Python 虛擬環境與執行 AI Agent。
- <img width="315" height="363" alt="image" src="https://github.com/user-attachments/assets/aaec38e0-522c-4215-b0a2-3aca75942890" />
+ <img width="200" alt="image" src="https://github.com/user-attachments/assets/aaec38e0-522c-4215-b0a2-3aca75942890" />
 
 ### B. 作業環境
 
