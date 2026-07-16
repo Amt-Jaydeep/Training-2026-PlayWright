@@ -130,4 +130,18 @@ uv ⚙️安裝步驟參閱：[**Zed 環境安裝與設定指南**](./UV&Zed-Ins
 
 ---
 
+## 📅 2026/07/15 ─ Playwright 安裝與基本使用
 
+**主題：`安裝 Playwright` / `Playwright基礎說明-1` 
+
+### A. 安裝 Playwright
+
+* **[安裝 Playwright](./TUI-Webwright-OpenCode.md#b-playwright-環境建立)**
+
+---
+
+### B. 使用說明與參考資源
+
+* **[官方文件](https://playwright.tw/docs/intro)**
+
+---
