@@ -43,7 +43,7 @@
    > ✅ 若步驟 2 已正確設定 PATH，可直接輸入 `opencode` 啟動，不需要透過 `npx` 
 
 8. 確認 TUI Agent（OpenCode）啟動成功
- <img width="865" height="508" alt="image" src="https://github.com/user-attachments/assets/d9298239-34d3-4c92-b363-59a21c8ad593" />
+ <img width="600" alt="image" src="https://github.com/user-attachments/assets/d9298239-34d3-4c92-b363-59a21c8ad593" />
 
 
 ---
