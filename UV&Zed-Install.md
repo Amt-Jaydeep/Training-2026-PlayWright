@@ -29,7 +29,7 @@
     ```bash
     .venv\Scripts\activate
     ```
-<img width="865" height="50" alt="image" src="https://github.com/user-attachments/assets/1bb7de7f-bee3-4c9b-bc1e-5b160aa68700" />
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/1bb7de7f-bee3-4c9b-bc1e-5b160aa68700" />
     
 11. 開頭出現專案名稱表示成功進入虛擬 uv 環境
 12. **離開虛擬環境**：
@@ -56,7 +56,7 @@
 
 4. 選擇供應商（Free 方案可選 **GitHub**；其餘供應商需付費）
    或直接選擇合適的模型
-<img width="590" height="348" alt="image" src="https://github.com/user-attachments/assets/95ac4907-8153-4fbb-8b6b-42d11db9495f" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/95ac4907-8153-4fbb-8b6b-42d11db9495f" />
 
 > 💡Open code 與 Big Pickle (美國) 就很不錯 , 也有中國 Deepseek 如果不在意
  
