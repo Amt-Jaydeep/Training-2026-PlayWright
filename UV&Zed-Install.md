@@ -49,10 +49,10 @@
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/c68c1d48-28ed-46b1-a04a-706fce1cf0e9" />
 
 2. 安裝成功
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/560bdc3b-d5ee-47d5-93a6-6a2bc26b488f" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/560bdc3b-d5ee-47d5-93a6-6a2bc26b488f" />
   
 3. 選擇專案（例如：`2026-0622_Playwright`）
-<img width="599" height="352" alt="image" src="https://github.com/user-attachments/assets/e902203d-8721-4997-918b-3347ffadddfd" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/e902203d-8721-4997-918b-3347ffadddfd" />
 
 4. 選擇供應商（Free 方案可選 **GitHub**；其餘供應商需付費）
    或直接選擇合適的模型
