@@ -22,7 +22,7 @@
    uv venv
    ```
 9. 安裝完成後，終端機會顯示 Python 3.12 成功安裝訊息
-<img width="697" height="203" alt="image" src="https://github.com/user-attachments/assets/90acb2bf-effe-48d0-85bb-71747c9b7df8" />
+> <img width="370" alt="image" src="https://github.com/user-attachments/assets/90acb2bf-effe-48d0-85bb-71747c9b7df8" />
 
 
 10. **進入虛擬環境**：
@@ -39,17 +39,17 @@
 
     
 13. 此時系統中可同時看到兩個 Python 版本（如 3.14 與 3.12）
-<img width="697" height="203" alt="image" src="https://github.com/user-attachments/assets/cdc97926-1a51-4f49-98f5-9ee24f39efa4" />
+<img width="370" alt="image" src="https://github.com/user-attachments/assets/cdc97926-1a51-4f49-98f5-9ee24f39efa4" />
 
 ---
 
 ### 🛠️B. 使用 Zed 下, 安裝與啟動 AI (OpenCode)
 
 1. Add more agens & Install
-<img width="1611" height="967" alt="image" src="https://github.com/user-attachments/assets/c68c1d48-28ed-46b1-a04a-706fce1cf0e9" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/c68c1d48-28ed-46b1-a04a-706fce1cf0e9" />
 
 2. 安裝成功
-<img width="827" height="987" alt="image" src="https://github.com/user-attachments/assets/560bdc3b-d5ee-47d5-93a6-6a2bc26b488f" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/560bdc3b-d5ee-47d5-93a6-6a2bc26b488f" />
   
 3. 選擇專案（例如：`2026-0622_Playwright`）
 <img width="599" height="352" alt="image" src="https://github.com/user-attachments/assets/e902203d-8721-4997-918b-3347ffadddfd" />
